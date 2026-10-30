@@ -1,0 +1,17 @@
+---
+title: "Technical report"
+subtitle: "Bill shape in *Pygoscelis* penguins"
+author: "Nicolás Kass"
+date: today
+bibliography: references.bib
+format:
+  typst:
+    toc: true
+    papersize: a4
+    margin: {x: 2.5cm, y: 2.5cm}
+    fontsize: 11pt
+execute:
+  echo: false
+---
+
+{{< include _body.qmd >}}

@@ -1,0 +1,7 @@
+project:
+  type: default
+  output-dir: documents
+  render:
+    - content/paper.qmd
+    - content/report.qmd
+    - content/slides.qmd

@@ -1,0 +1,19 @@
+{
+  "n_total": 344,
+  "n_species": {
+    "Adelie": 152,
+    "Chinstrap": 68,
+    "Gentoo": 124
+  },
+  "mass_by_species": {
+    "Adelie": 3701,
+    "Chinstrap": 3733,
+    "Gentoo": 5076
+  },
+  "slope_pooled": -0.085,
+  "slope_by_species": {
+    "Adelie": 0.179,
+    "Chinstrap": 0.222,
+    "Gentoo": 0.205
+  }
+}

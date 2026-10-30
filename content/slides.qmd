@@ -1,0 +1,37 @@
+---
+title: "Bill shape in *Pygoscelis* penguins"
+subtitle: "Same numbers, third format"
+author: "Nicolás Kass"
+bibliography: references.bib
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    embed-resources: true
+execute:
+  echo: false
+---
+
+```{r}
+#| include: false
+nums <- jsonlite::fromJSON("../results/numbers.json")
+```
+
+## The data
+
+- `r nums$n_total` penguins, three species [@gorman2014]
+- Open data, plain text: `data/penguins.csv` [@horst2020]
+
+## Body mass
+
+![](../results/figures/mass.png){width=70%}
+
+Gentoo: **`r nums$mass_by_species$Gentoo` g** on average.
+
+## A paradox in the bills
+
+![](../results/figures/bill.png){width=55%}
+
+Pooled slope: **`r nums$slope_pooled`**. Within each species: positive.
+
+## References

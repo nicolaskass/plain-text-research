@@ -1,0 +1,16 @@
+---
+title: "Bill shape in *Pygoscelis* penguins: a reproducible example"
+author: "Nicolás Kass"
+bibliography: references.bib
+format:
+  typst:
+    columns: 2
+    papersize: a4
+    margin: {x: 1.8cm, y: 2cm}
+    fontsize: 9.5pt
+    section-numbering: "1."
+execute:
+  echo: false
+---
+
+{{< include _body.qmd >}}
